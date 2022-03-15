@@ -10,8 +10,11 @@
 <body>
     <h1>Você é estrangeiro? <img src="https://static.todamateria.com.br/upload/ba/nd/bandeiradobrasil-2-cke.jpg" alt="Bandeira do Brasil" style="width: 90px; height: 60px; border-radius: 5px;"></h1>
     <div id="bloco">
-        <span>Qual país você nasceu?</span> <br/> <input type="text" name="txtpaís" id="txtpaís" size="24">
-        <input type="button" value="Verificar" onclick="calcular()" id="button">
+        <p id="txtp">Qual país você nasceu?</p>
+        <div id="divbuttom">
+            <input type="text" name="txtpaís" id="txtpaís" size="24">
+            <input type="button" value="Verificar" onclick="calcular()" id="button" >
+        </div>
         <div id="res"></div>
     </div>
     <footer>
